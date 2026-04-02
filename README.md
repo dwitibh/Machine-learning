@@ -9,7 +9,7 @@
 1. **Data Cleaning & PreprocessingMissing Value Handling**: Identified 297 missing values in the InternetService column and imputed them with blanks to maintain data integrity without dropping rows.Duplicate Check: Verified dataset uniqueness (0 duplicates found).Data Type Validation: Ensured numeric fields (TotalCharges, MonthlyCharges) were correctly typed for calculation.
 2.  **Exploratory Data Analysis (EDA)Statistical Profiling**: Generated descriptive statistics to understand the distribution of age, tenure, and spending.Correlation Analysis: * Found a strong positive correlation (0.89) between Tenure and TotalCharges.Analyzed the relationship between MonthlyCharges and total revenue.Segmentation: Grouped data by ContractType and InternetService to identify high-risk segments.
   
-📈 **Key Insights**: (Initial)The average customer tenure is approximately 19 months.Monthly charges range from $\$30$ to $\$120$, with a mean of $\$74.39$.High correlation suggests that long-term retention is the primary driver of total customer lifetime value.
+📈 **Key Insights**: (Initial)The average customer tenure is approximately 19 months.Monthly charges range from 30$ to 120$, with a mean of 74.39$.High correlation suggests that long-term retention is the primary driver of total customer lifetime value.
 
 🔧** How to UseClone this repository**.
 Ensure you have the dataset customer_churn_data.csv in the root directory.
